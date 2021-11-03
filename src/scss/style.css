@@ -16,8 +16,11 @@ body {
 
 .card-div {
   padding: 1em;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
 }
-
 .card-container {
   margin: 1em auto;
   display: flex;
